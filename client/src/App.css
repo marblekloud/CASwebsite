@@ -1,0 +1,103 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.inputBox {
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 95%;
+  line-height: 40px;
+  background-color: #4a4d53;
+  border: none;
+  color: rgb(219, 219, 219);
+  border-radius: 5px;
+}
+
+.everything {
+  background-color: #2f3136;
+  height: 100vh;
+}
+.Sender {
+  line-height: 40px;
+  margin-right: 1%;
+  font-size: 18px;
+  color: rgb(223, 223, 223);
+}
+
+.Textt {
+  font-size: 16px;
+  color: rgb(219, 219, 219);
+  font-weight: 10;
+  margin-bottom: 15px;
+}
+.input {
+  width: 97%;
+  margin: auto;
+  display: flex;
+}
+
+.button {
+  display: block;
+  font-size: 15px;
+  background-color: #2e2f33;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #2e2f33;
+  color: #bcbfc7;
+  border-width: 2px;
+  padding: 5px 15px 5px 15px;
+}
+
+.button:hover {
+  transition: 0.2s;
+  display: block;
+  font-size: 15px;
+  border-color: #28282c;
+  color: #c8cbd3;
+  background-color: #28282c;
+}
+
+.inputBox:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.scroll {
+  margin: auto;
+  background-color: #36393f;
+  width: 95%;
+  height: 88vh;
+  overflow: auto;
+  text-align: justify;
+  padding: 20px;
+}
+.Date {
+  margin-right: 1%;
+  color: rgb(172, 169, 182);
+}
+.chatandbox {
+  background-color: #36393f;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+
+.deletebutton {
+  font-size: 12px;
+  background-color: #36393f;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #36393f;
+  color: #c7bcbc;
+  border-width: 2px;
+  padding: 5px 5px 5px 5px;
+}
+
+.deletebutton:hover {
+  transition: 0.1s;
+  font-size: 12px;
+  border-color: #36393f;
+  color: #ff5c5c;
+  background-color: #36393f;
+}
